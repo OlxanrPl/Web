@@ -17,7 +17,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>NWPservlet</servlet-name>
-    <url-pattern>/service</url-pattern>
+    <url-pattern>/random</url-pattern>
   </servlet-mapping>
   <filter>
     <filter-name>NWPfilter</filter-name>
@@ -25,7 +25,7 @@
   </filter>
   <filter-mapping>
     <filter-name>NWPfilter</filter-name>
-    <url-pattern>/service</url-pattern>
+    <url-pattern>/random</url-pattern>
      </filter-mapping>
 </web-app>
 
